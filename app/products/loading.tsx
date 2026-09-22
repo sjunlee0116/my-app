@@ -7,9 +7,8 @@ export default function ProductsLoading() {
         {[1, 2, 3].map((i) => (
           <div
             key={i}
-            className="h-16 animate-pulse rounded-lg bg-black/[.04] dark:bg-white/[.06]"
-          />
-        ))}
+            className="h-[74px] animate-pulse rounded-lg bg-black/[.06] dark:bg-white/[.08]"/>
+        ))} 
       </div>
     </div>
   );
